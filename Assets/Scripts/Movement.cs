@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
+        ProcessInput();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void ProcessInput()
     {
-        
+        return;
     }
 }
